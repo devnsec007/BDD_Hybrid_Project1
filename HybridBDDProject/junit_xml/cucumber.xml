@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.167">
+<testcase classname="Test collection for Ajax form Submission" name="Test Ajax form Submission" time="16.758">
+<system-out><![CDATA[Given User is on the Base Page..............................................passed
+When User navigets to Ajax form submission..................................passed
+And checks that the Ajax Form Submit with Loading icon heading is getting displayed.passed
+And User provides the Debasish and TestMessage field values.................passed
+And Clicks on the Sumbit button.............................................passed
+Then Form submited Successfully message should be visible...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test collection for Ajax form Submission" name="Test Ajax form Submission from Excel data Source" time="9.185">
+<system-out><![CDATA[Given User is on the Base Page..............................................passed
+When User navigets to Ajax form submission..................................passed
+And checks that the Ajax Form Submit with Loading icon heading is getting displayed.passed
+And User provides the Form Data from Sheet "SampleBDDData" and RowNumber 3..passed
+And Clicks on the Sumbit button.............................................passed
+Then Form submited Successfully message should be visible...................passed
+]]></system-out>
+</testcase>
+</testsuite>

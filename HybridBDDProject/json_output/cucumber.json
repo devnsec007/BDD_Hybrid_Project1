@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-24T15:17:35.721Z",
+        "line": 13,
+        "name": "Test Ajax form Submission",
+        "description": "",
+        "id": "test-collection-for-ajax-form-submission;test-ajax-form-submission;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000917800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Base Page",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_is_on_the_base_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 672594700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigets to Ajax form submission",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_navigets_to_ajax_form_submission()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85013700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "checks that the Ajax Form Submit with Loading icon heading is getting displayed",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.checks_that_the_ajax_form_submit_with_loading_icon_heading_is_getting_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247036600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User provides the Debasish and TestMessage field values",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Debasish",
+                  "offset": 18
+                },
+                {
+                  "val": "TestMessage",
+                  "offset": 31
+                }
+              ],
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_provides_the_name_and_comment_field_values(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6479408200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on the Sumbit button",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.clicks_on_the_sumbit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194633000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Form submited Successfully message should be visible",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.form_submited_successfully_message_should_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-24T15:17:52.503Z",
+        "line": 25,
+        "name": "Test Ajax form Submission from Excel data Source",
+        "description": "",
+        "id": "test-collection-for-ajax-form-submission;test-ajax-form-submission-from-excel-data-source;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6222697000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is on the Base Page",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_is_on_the_base_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 308579700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User navigets to Ajax form submission",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_navigets_to_ajax_form_submission()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49002300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checks that the Ajax Form Submit with Loading icon heading is getting displayed",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.checks_that_the_ajax_form_submit_with_loading_icon_heading_is_getting_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 736117200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User provides the Form Data from Sheet \"SampleBDDData\" and RowNumber 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SampleBDDData\"",
+                  "offset": 39
+                },
+                {
+                  "val": "3",
+                  "offset": 69
+                }
+              ],
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.user_provides_the_form_data_from_sheet_and_row_number(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 713955600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Clicks on the Sumbit button",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.clicks_on_the_sumbit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1152235800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Form submited Successfully message should be visible",
+            "match": {
+              "location": "com.qa.stepdef.StepDefForAjaxFormSubmit.form_submited_successfully_message_should_be_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test collection for Ajax form Submission",
+    "description": "",
+    "id": "test-collection-for-ajax-form-submission",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featurefile/ajaxFormSubmition.feature",
+    "tags": []
+  }
+]
